@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "sidebar menubar menubar menubar menubar menubar"
+    "sidebar body body body body body"
+    "sidebar body body body body body"
+    "sidebar body body body body body"
+    "sidebar body body body body body"
+    "sidebar body body body body body";
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: #091868;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#logo {
+  margin: 40px 30px 50px 30px;
+  width: 75%;
+  justify-content: flex-start;
+}
+
+#sidebar ul {
+  color: white;
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  list-style-type: none;
+  font-size: large;
+  text-align: center;
+}
+
+#sidebar li {
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+#menubar {
+  grid-area: menubar;
+  background-color: #ffc83b;
+  display: flex;
+  flex-direction: row;
+}
+
+#menubar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#body {
+  grid-area: body;
+  background-color: #054cbf;
+  display: flex;
+}
+
+#menubar p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  align-items: center;
+  max-height: fit-content;
+}
+
+#title {
+  display: flex;
+  margin-left: 55px;
+}
+
+#title p {
+  width: fit-content;
+}
+
+#icon {
+  height: 3em;
+  margin-left: 15px;
+}
+
+#right-arrow {
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+}
+
+#right-arrow-block {
+  background-color: #091868;
+  height: 200px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.member {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member p {
+  color: white;
+  font-size: 1.5em;
+  font-family: Helvetica, sans-serif;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+#memberlist {
+  margin-top: 60px;
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.topusername {
+  border-top: 5px solid #091868;
+  border-left: 5px solid #091868;
+  border-right: 5px solid #091868;
+  height: fit-content;
+}
+
+.chatroom {
+  border: 5px solid #091868;
+  height: fit-content;
+  width: 670px;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #091868;
+  background-color: #091868;
+  height: 150px;
+  width: 25px;
+  margin-top: 200px;
+  margin-left: 71px;
+}
+
+.scroll > img {
+  margin-top: 59px;
+}
+
+.message {
+  display: flex;
+  height: 55px;
+  border-radius: 40px;
+  border: 1px solid #091868;
+  background-color: #091868;
+  color: white;
+  margin: 10px;
+}
+
+.right-chat {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+}
+
+.message p {
+  margin: 10px;
+  display: inline-block;
+}
+
+.left-chat {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+
+.left-chat p,
+.right-chat p {
+    color: white;
+    font-size: 1.5em;
+    font-family: Helvetica, sans-serif;
+    margin: 15px 20px 0px 20px;
+}
+
+.bottom-icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.apple {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+
+.livia {
+  margin-right: 15px;
+}
+
+.input-textbox {
+  background-color: #091868;
+  color: #054cbf;
+  height: 40px;
+  width: 280px;
+  border-radius: 20px;
+}
+
+.input-textbox p {
+  margin: 10px;
+}
+
+.arrange {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.people {
+    display: flex;
+}
+
+.people a {
+    color: white;
+    font-size: 1.5em;
+    font-family: Helvetica, sans-serif;
+    height: fit-content;
+    margin: 33.5px 20px;
+}
+
+.people img {
+    margin: 20px;
+}

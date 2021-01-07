@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "sidebar menubar menubar menubar menubar menubar"
+        "sidebar body body body body body"
+        "sidebar body body body body body"
+        "sidebar body body body body body"
+        "sidebar body body body body body"
+        "sidebar body body body body body";
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background-color: #091868;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#logo {
+    margin: 40px 30px 50px 30px;
+    width: 75%;
+    justify-content: flex-start;
+}
+
+#sidebar ul {
+    color: white;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    text-decoration: underline;
+    list-style-type: none;
+    font-size: large;
+    text-align: center;
+}
+
+#sidebar li {
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#menubar {
+    grid-area: menubar;
+    background-color: #ffc83b;
+    display: flex;
+    flex-direction: row;
+}
+
+#menubar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#body {
+    grid-area: body;
+    background-color: #054cbf;
+    display: flex;
+}
+
+#menubar p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    align-items: center;
+    max-height: fit-content;
+}
+
+#grades {
+    display: flex;
+    margin-left: 55px;
+}
+
+#grades p {
+    width: 480px;
+}
+
+#medal {
+    height: 3em;
+}
+
+#gpa {
+    justify-content: flex-end;
+    float: right;
+    margin-right: 130px;
+}
+
+.two-blocks {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    width: 470px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#assignments {
+    padding: 70px 70px 0px 90px;
+}
+
+#attendance{
+    padding: 30px 70px 0px 90px;
+}
+
+#assignments h1 ,
+#attendance h1{
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+#title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.list-items {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#see-more{
+    font-size: 1.5em;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#see-more p {
+    float: right;
+    text-decoration: underline;
+}
+
+#title img {
+    margin-left: 20px;
+}
+
+#blocks {
+    justify-content: flex-end;
+}
+
+#upper {
+    background-color: #091868;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 100px 50px 0px 50px;
+}
+
+#upper p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 250px;
+}
+
+#lower {
+    display: flex;
+    background-color: #091868;
+    padding: 20px 39px;
+    border-radius: 30px;
+    max-width: fit-content;
+    margin: 60px auto;
+}
+
+#lower p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+#right-arrow {
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+}
+
+#right-arrow-block {
+    background-color: #091868;
+    height: 200px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}

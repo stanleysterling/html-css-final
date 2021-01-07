@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+.header-ethan {
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.left-ethan {
+  display: flex;
+  align-items: center;
+  color: #1b7092;
+}
+
+.left-ethan > p {
+  padding-left: 5px;
+  font-size: 30px;
+}
+
+.right-ethan {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.right-ethan > p {
+  padding-right: 8px;
+  font-size: 23px;
+}
+
+.createAccount {
+  display: flex;
+  height: 33px;
+  width: 200px;
+  background-color: #1b7092;
+  border-radius: 100px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.body-ethan {
+  display: flex;
+  background-color: #a9d1e2;
+  width: 100vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-in {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-in > p {
+  font-size: 40px;
+  color: #1b7092;
+  margin-top: 60px;
+}
+
+.ethan-img-center {
+  display: flex;
+  justify-content: center;
+  background-color: #a9d1e2;
+  margin-bottom: -37px;
+  z-index: 2;
+  border-radius: 50px;
+}
+
+.input-sign-in-ethan {
+  background-color: #a9d1e2;
+  height: 45px;
+  width: 300px;
+  margin: 0px 15px 15px 15px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.input-sign-in-label-ethan-email {
+  height: 17px;
+  width: 55px;
+  margin-top: 35px;
+  margin-right: 235px;
+  background-color: #60a7c5;
+  border-top-right-radius: 15px;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.input-sign-in-label-ethan-pass {
+  height: 17px;
+  width: 85px;
+  margin-top: 25px;
+  margin-right: 205px;
+  background-color: #60a7c5;
+  border-top-right-radius: 15px;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.sign-in > .input-sign-in-label-ethan-email {
+  display: flex;
+  justify-content: left;
+}
+
+.sign-in > .input-sign-in-label-ethan-pass {
+  display: flex;
+  justify-content: flex-start;
+}

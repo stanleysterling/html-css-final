@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+.header-ethan {
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.left-ethan {
+  display: flex;
+  align-items: center;
+  color: #1b7092;
+}
+
+.left-ethan > p {
+  padding-left: 5px;
+  font-size: 30px;
+}
+
+.right-ethan {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.right-ethan > p {
+  padding-right: 8px;
+  font-size: 23px;
+}
+
+.page-ethan {
+  display: flex;
+}
+
+.nav-ethan {
+  border: 1px solid #1b7092;
+  width: 23%;
+  height: 90vh;
+  color: #1b7092;
+  font-size: 28px;
+}
+
+.list-for-students {
+  margin: 20px;
+}
+
+.schedule-ethan {
+  display: flex;
+  width: 77%;
+  height: 90vh;
+  background-color: #a9d1e2;
+  flex-direction: column;
+  align-items: center;
+}
+
+.schedule-title {
+  color: white;
+  font-size: 60px;
+  margin: 20px;
+}
+
+.weekday {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 513px;
+}
+
+.monday {
+  color: #1b7092;
+  text-align: center;
+  height: 450px;
+  width: 150px;
+}
+
+.tuesday {
+  color: #1b7092;
+  text-align: center;
+  height: 450px;
+  width: 150px;
+}
+
+.friday {
+  color: #1b7092;
+  text-align: center;
+  height: 450px;
+  width: 150px;
+}
+
+.empty {
+  background-color: #a9d1e2;
+  width: 30px;
+}
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  border-bottom: 2px solid #1b7092;
+  margin-bottom: 10px;
+  height: 120px;
+}
+
+.courses-topic {
+  display: flex;
+  background-color: #1b7092;
+  color: white;
+  height: 50px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.time {
+  margin-bottom: 20px;
+}
+
+.courses {
+  font-size: 24px;
+}
+
+.sign-out {
+  display: flex;
+  color: #1b7092;
+  margin-top: 150px;
+  margin-left: 20px;
+}
